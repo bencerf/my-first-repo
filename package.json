@@ -1,0 +1,24 @@
+{
+  "name": "my-first-repo",
+  "version": "1.0.0",
+  "description": "This is a test description of Node.js and NPM",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiryksV/my-first-repo.git"
+  },
+  "author": "Miryks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MiryksV/my-first-repo/issues"
+  },
+  "homepage": "https://github.com/MiryksV/my-first-repo#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
